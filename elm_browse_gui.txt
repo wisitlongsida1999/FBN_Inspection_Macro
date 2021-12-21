@@ -1,0 +1,2414 @@
+
+wisitl@Note-Dell3138 MINGW64 ~/Documents/PY/Inspection Macro
+$ python test_browse_gui.py
+[65780, 723038, 7734722, 525198, 3083378, 919518, 721722, 264304, 1901464, 22947
+60, 1248790, 2886072, 133504, 67964, 657762, 67930, 198964, 66008, 65958, 65952,
+ 65930, 65928, 2031732, 1313824, 526922, 2295892, 131406]
+<pywinauto.application.Application object at 0x03BA8D78>
+<pywinauto.application.WindowSpecification object at 0x0E1C7E68>
+Control Identifiers:
+
+Dialog - 'Open'    (L64, T107, R1769, B947)
+['Dialog', 'OpenDialog', 'Open']
+child_window(title="Open", class_name="#32770")
+   |
+   | DUIViewWndClassName - ''    (L72, T180, R1761, B863)
+   | ['DUIViewWndClassName', 'Files of &type:DUIViewWndClassName']
+   | child_window(class_name="DUIViewWndClassName")
+   |    |
+   |    | DirectUIHWND - ''    (L72, T180, R1761, B863)
+   |    | ['DirectUIHWND', 'Files of &type:DirectUIHWND', 'DirectUIHWND0', 'Dire
+ctUIHWND1', 'Files of &type:DirectUIHWND0', 'Files of &type:DirectUIHWND1']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L72, T211, R228, B863)
+   |    |    | ['Files of &type:CtrlNotifySink', 'CtrlNotifySink', 'CtrlNotifySi
+nk0', 'CtrlNotifySink1', 'Files of &type:CtrlNotifySink0', 'Files of &type:CtrlN
+otifySink1']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | NamespaceTreeControl - 'Namespace Tree Control'    (L72, T21
+1, R228, B863)
+   |    |    |    | ['Namespace Tree Control', 'Namespace Tree ControlNamespaceT
+reeControl', 'NamespaceTreeControl', 'Namespace Tree Control0', 'Namespace Tree
+Control1']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="Nam
+espaceTreeControl")
+   |    |    |    |    |
+   |    |    |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B
+211)
+   |    |    |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStat
+ic', 'Static', 'Static0', 'Static1']
+   |    |    |    |    | child_window(title="Namespace Tree Control", class_name
+="Static")
+   |    |    |    |    |
+   |    |    |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    |    |    | child_window(title="Tree View", class_name="SysTreeView
+32")
+   |    |    |    |
+   |    |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic',
+'Static', 'Static0', 'Static1']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="Sta
+tic")
+   |    |    |    |
+   |    |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |    |
+   |    |    | NamespaceTreeControl - 'Namespace Tree Control'    (L72, T211, R2
+28, B863)
+   |    |    | ['Namespace Tree Control', 'Namespace Tree ControlNamespaceTreeCo
+ntrol', 'NamespaceTreeControl', 'Namespace Tree Control0', 'Namespace Tree Contr
+ol1']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Namespac
+eTreeControl")
+   |    |    |    |
+   |    |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic',
+'Static', 'Static0', 'Static1']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="Sta
+tic")
+   |    |    |    |
+   |    |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |    |
+   |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Stat
+ic', 'Static0', 'Static1']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+
+   |    |    |
+   |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L72, T180, R72, B180)
+   |    |    | ['OpenCtrlNotifySink', 'CtrlNotifySink2']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | Shell Preview Extension Host - 'Shell Preview Extension Host
+'    (L72, T180, R72, B180)
+   |    |    |    | ['Shell Preview Extension Host', 'Shell Preview Extension Ho
+stShell Preview Extension Host']
+   |    |    |    | child_window(title="Shell Preview Extension Host", class_nam
+e="Shell Preview Extension Host")
+   |    |    |
+   |    |    | Shell Preview Extension Host - 'Shell Preview Extension Host'
+(L72, T180, R72, B180)
+   |    |    | ['Shell Preview Extension Host', 'Shell Preview Extension HostShe
+ll Preview Extension Host']
+   |    |    | child_window(title="Shell Preview Extension Host", class_name="Sh
+ell Preview Extension Host")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R1761, B863)
+   |    |    | ['Files of &type:CtrlNotifySink2', 'CtrlNotifySink3']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | SHELLDLL_DefView - 'ShellView'    (L232, T211, R1761, B863)
+   |    |    |    | ['ShellView', 'SHELLDLL_DefView', 'ShellViewSHELLDLL_DefView
+']
+   |    |    |    | child_window(title="ShellView", class_name="SHELLDLL_DefView
+")
+   |    |    |    |    |
+   |    |    |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    |    |
+   |    |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink
+4']
+   |    |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'Sc
+rollBar0', 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1
+']
+   |    |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollB
+ar0', 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink
+5']
+   |    |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollB
+ar0', 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollB
+ar0', 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | SHELLDLL_DefView - 'ShellView'    (L232, T211, R1761, B863)
+   |    |    | ['ShellView', 'SHELLDLL_DefView', 'ShellViewSHELLDLL_DefView']
+   |    |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |    |
+   |    |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollB
+ar0', 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L72, T211, R228, B863)
+   |    | ['Files of &type:CtrlNotifySink', 'CtrlNotifySink', 'CtrlNotifySink0',
+ 'CtrlNotifySink1', 'Files of &type:CtrlNotifySink0', 'Files of &type:CtrlNotify
+Sink1']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | NamespaceTreeControl - 'Namespace Tree Control'    (L72, T211, R2
+28, B863)
+   |    |    | ['Namespace Tree Control', 'Namespace Tree ControlNamespaceTreeCo
+ntrol', 'NamespaceTreeControl', 'Namespace Tree Control0', 'Namespace Tree Contr
+ol1']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Namespac
+eTreeControl")
+   |    |    |    |
+   |    |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic',
+'Static', 'Static0', 'Static1']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="Sta
+tic")
+   |    |    |    |
+   |    |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |    |
+   |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Stat
+ic', 'Static0', 'Static1']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+
+   |    |    |
+   |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |
+   |    | NamespaceTreeControl - 'Namespace Tree Control'    (L72, T211, R228, B
+863)
+   |    | ['Namespace Tree Control', 'Namespace Tree ControlNamespaceTreeControl
+', 'NamespaceTreeControl', 'Namespace Tree Control0', 'Namespace Tree Control1']
+
+   |    | child_window(title="Namespace Tree Control", class_name="NamespaceTree
+Control")
+   |    |    |
+   |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Stat
+ic', 'Static0', 'Static1']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+
+   |    |    |
+   |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |
+   |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Static',
+'Static0', 'Static1']
+   |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |
+   |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |
+   |    | CtrlNotifySink - ''    (L72, T180, R72, B180)
+   |    | ['OpenCtrlNotifySink', 'CtrlNotifySink2']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | Shell Preview Extension Host - 'Shell Preview Extension Host'
+(L72, T180, R72, B180)
+   |    |    | ['Shell Preview Extension Host', 'Shell Preview Extension HostShe
+ll Preview Extension Host']
+   |    |    | child_window(title="Shell Preview Extension Host", class_name="Sh
+ell Preview Extension Host")
+   |    |
+   |    | Shell Preview Extension Host - 'Shell Preview Extension Host'    (L72,
+ T180, R72, B180)
+   |    | ['Shell Preview Extension Host', 'Shell Preview Extension HostShell Pr
+eview Extension Host']
+   |    | child_window(title="Shell Preview Extension Host", class_name="Shell P
+review Extension Host")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R1761, B863)
+   |    | ['Files of &type:CtrlNotifySink2', 'CtrlNotifySink3']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | SHELLDLL_DefView - 'ShellView'    (L232, T211, R1761, B863)
+   |    |    | ['ShellView', 'SHELLDLL_DefView', 'ShellViewSHELLDLL_DefView']
+   |    |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |    |
+   |    |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollB
+ar0', 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | SHELLDLL_DefView - 'ShellView'    (L232, T211, R1761, B863)
+   |    | ['ShellView', 'SHELLDLL_DefView', 'ShellViewSHELLDLL_DefView']
+   |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |
+   |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBar1',
+'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   |
+   | DirectUIHWND - ''    (L72, T180, R1761, B863)
+   | ['DirectUIHWND', 'Files of &type:DirectUIHWND', 'DirectUIHWND0', 'DirectUIH
+WND1', 'Files of &type:DirectUIHWND0', 'Files of &type:DirectUIHWND1']
+   | child_window(class_name="DirectUIHWND")
+   |    |
+   |    | CtrlNotifySink - ''    (L72, T211, R228, B863)
+   |    | ['Files of &type:CtrlNotifySink', 'CtrlNotifySink', 'CtrlNotifySink0',
+ 'CtrlNotifySink1', 'Files of &type:CtrlNotifySink0', 'Files of &type:CtrlNotify
+Sink1']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | NamespaceTreeControl - 'Namespace Tree Control'    (L72, T211, R2
+28, B863)
+   |    |    | ['Namespace Tree Control', 'Namespace Tree ControlNamespaceTreeCo
+ntrol', 'NamespaceTreeControl', 'Namespace Tree Control0', 'Namespace Tree Contr
+ol1']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Namespac
+eTreeControl")
+   |    |    |    |
+   |    |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic',
+'Static', 'Static0', 'Static1']
+   |    |    |    | child_window(title="Namespace Tree Control", class_name="Sta
+tic")
+   |    |    |    |
+   |    |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |    |
+   |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Stat
+ic', 'Static0', 'Static1']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+
+   |    |    |
+   |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |
+   |    | NamespaceTreeControl - 'Namespace Tree Control'    (L72, T211, R228, B
+863)
+   |    | ['Namespace Tree Control', 'Namespace Tree ControlNamespaceTreeControl
+', 'NamespaceTreeControl', 'Namespace Tree Control0', 'Namespace Tree Control1']
+
+   |    | child_window(title="Namespace Tree Control", class_name="NamespaceTree
+Control")
+   |    |    |
+   |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Stat
+ic', 'Static0', 'Static1']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+
+   |    |    |
+   |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |
+   |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Static',
+'Static0', 'Static1']
+   |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |
+   |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |
+   |    | CtrlNotifySink - ''    (L72, T180, R72, B180)
+   |    | ['OpenCtrlNotifySink', 'CtrlNotifySink2']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | Shell Preview Extension Host - 'Shell Preview Extension Host'
+(L72, T180, R72, B180)
+   |    |    | ['Shell Preview Extension Host', 'Shell Preview Extension HostShe
+ll Preview Extension Host']
+   |    |    | child_window(title="Shell Preview Extension Host", class_name="Sh
+ell Preview Extension Host")
+   |    |
+   |    | Shell Preview Extension Host - 'Shell Preview Extension Host'    (L72,
+ T180, R72, B180)
+   |    | ['Shell Preview Extension Host', 'Shell Preview Extension HostShell Pr
+eview Extension Host']
+   |    | child_window(title="Shell Preview Extension Host", class_name="Shell P
+review Extension Host")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R1761, B863)
+   |    | ['Files of &type:CtrlNotifySink2', 'CtrlNotifySink3']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | SHELLDLL_DefView - 'ShellView'    (L232, T211, R1761, B863)
+   |    |    | ['ShellView', 'SHELLDLL_DefView', 'ShellViewSHELLDLL_DefView']
+   |    |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |    |
+   |    |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollB
+ar0', 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | SHELLDLL_DefView - 'ShellView'    (L232, T211, R1761, B863)
+   |    | ['ShellView', 'SHELLDLL_DefView', 'ShellViewSHELLDLL_DefView']
+   |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |
+   |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBar1',
+'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   |
+   | CtrlNotifySink - ''    (L72, T211, R228, B863)
+   | ['Files of &type:CtrlNotifySink', 'CtrlNotifySink', 'CtrlNotifySink0', 'Ctr
+lNotifySink1', 'Files of &type:CtrlNotifySink0', 'Files of &type:CtrlNotifySink1
+']
+   | child_window(class_name="CtrlNotifySink")
+   |    |
+   |    | NamespaceTreeControl - 'Namespace Tree Control'    (L72, T211, R228, B
+863)
+   |    | ['Namespace Tree Control', 'Namespace Tree ControlNamespaceTreeControl
+', 'NamespaceTreeControl', 'Namespace Tree Control0', 'Namespace Tree Control1']
+
+   |    | child_window(title="Namespace Tree Control", class_name="NamespaceTree
+Control")
+   |    |    |
+   |    |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Stat
+ic', 'Static0', 'Static1']
+   |    |    | child_window(title="Namespace Tree Control", class_name="Static")
+
+   |    |    |
+   |    |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |    |
+   |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Static',
+'Static0', 'Static1']
+   |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |
+   |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |
+   | NamespaceTreeControl - 'Namespace Tree Control'    (L72, T211, R228, B863)
+   | ['Namespace Tree Control', 'Namespace Tree ControlNamespaceTreeControl', 'N
+amespaceTreeControl', 'Namespace Tree Control0', 'Namespace Tree Control1']
+   | child_window(title="Namespace Tree Control", class_name="NamespaceTreeContr
+ol")
+   |    |
+   |    | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   |    | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Static',
+'Static0', 'Static1']
+   |    | child_window(title="Namespace Tree Control", class_name="Static")
+   |    |
+   |    | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   |    | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   |    | child_window(title="Tree View", class_name="SysTreeView32")
+   |
+   | Static - 'Namespace Tree Control'    (L72, T211, R72, B211)
+   | ['Namespace Tree Control2', 'Namespace Tree ControlStatic', 'Static', 'Stat
+ic0', 'Static1']
+   | child_window(title="Namespace Tree Control", class_name="Static")
+   |
+   | TreeView - 'Tree View'    (L72, T211, R228, B863)
+   | ['Tree View', 'TreeView', 'Tree ViewTreeView']
+   | child_window(title="Tree View", class_name="SysTreeView32")
+   |
+   | CtrlNotifySink - ''    (L72, T180, R72, B180)
+   | ['OpenCtrlNotifySink', 'CtrlNotifySink2']
+   | child_window(class_name="CtrlNotifySink")
+   |    |
+   |    | Shell Preview Extension Host - 'Shell Preview Extension Host'    (L72,
+ T180, R72, B180)
+   |    | ['Shell Preview Extension Host', 'Shell Preview Extension HostShell Pr
+eview Extension Host']
+   |    | child_window(title="Shell Preview Extension Host", class_name="Shell P
+review Extension Host")
+   |
+   | Shell Preview Extension Host - 'Shell Preview Extension Host'    (L72, T180
+, R72, B180)
+   | ['Shell Preview Extension Host', 'Shell Preview Extension HostShell Preview
+ Extension Host']
+   | child_window(title="Shell Preview Extension Host", class_name="Shell Previe
+w Extension Host")
+   |
+   | CtrlNotifySink - ''    (L232, T211, R1761, B863)
+   | ['Files of &type:CtrlNotifySink2', 'CtrlNotifySink3']
+   | child_window(class_name="CtrlNotifySink")
+   |    |
+   |    | SHELLDLL_DefView - 'ShellView'    (L232, T211, R1761, B863)
+   |    | ['ShellView', 'SHELLDLL_DefView', 'ShellViewSHELLDLL_DefView']
+   |    | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |    |
+   |    |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    |    | child_window(class_name="DirectUIHWND")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0',
+ 'ScrollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |    |
+   |    |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBar1',
+'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   |
+   | SHELLDLL_DefView - 'ShellView'    (L232, T211, R1761, B863)
+   | ['ShellView', 'SHELLDLL_DefView', 'ShellViewSHELLDLL_DefView']
+   | child_window(title="ShellView", class_name="SHELLDLL_DefView")
+   |    |
+   |    | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   |    | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   |    | child_window(class_name="DirectUIHWND")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'Scr
+ollBar1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    |    | child_window(class_name="CtrlNotifySink")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    |    | child_window(class_name="ScrollBar")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBar1',
+'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   |
+   | DirectUIHWND - ''    (L232, T211, R1761, B863)
+   | ['DirectUIHWND2', 'Files of &type:DirectUIHWND2']
+   | child_window(class_name="DirectUIHWND")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBa
+r1', 'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBar1',
+'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   |    | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   |    | child_window(class_name="CtrlNotifySink")
+   |    |    |
+   |    |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    |    | child_window(class_name="ScrollBar")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   |
+   | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   | ['Files of &type:CtrlNotifySink3', 'CtrlNotifySink4']
+   | child_window(class_name="CtrlNotifySink")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBar1',
+'Files of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   |    | child_window(class_name="ScrollBar")
+   |
+   | ScrollBar - ''    (L232, T211, R232, B211)
+   | ['ScrollBar', 'Files of &type:ScrollBar', 'ScrollBar0', 'ScrollBar1', 'File
+s of &type:ScrollBar0', 'Files of &type:ScrollBar1']
+   | child_window(class_name="ScrollBar")
+   |
+   | CtrlNotifySink - ''    (L232, T211, R232, B211)
+   | ['Files of &type:CtrlNotifySink4', 'CtrlNotifySink5']
+   | child_window(class_name="CtrlNotifySink")
+   |    |
+   |    | ScrollBar - ''    (L232, T211, R232, B211)
+   |    | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   |    | child_window(class_name="ScrollBar")
+   |
+   | ScrollBar - ''    (L232, T211, R232, B211)
+   | ['ScrollBar2', 'Files of &type:ScrollBar2']
+   | child_window(class_name="ScrollBar")
+   |
+   | Static - 'File &name:'    (L202, T876, R256, B891)
+   | ['File &name:Static', 'File &name:', 'Static2']
+   | child_window(title="File &name:", class_name="Static")
+   |
+   | ComboBoxEx - ''    (L261, T872, R1544, B896)
+   | ['ComboBoxEx', 'File &name:ComboBoxEx', 'ComboBoxEx0', 'ComboBoxEx1']
+   | child_window(class_name="ComboBoxEx32")
+   |    |
+   |    | ComboBox - ''    (L261, T872, R1544, B896)
+   |    | ['File &name:ComboBox', 'ComboBox', 'ComboBox0', 'ComboBox1']
+   |    | child_window(class_name="ComboBox")
+   |    |    |
+   |    |    | Edit - ''    (L265, T877, R1524, B892)
+   |    |    | ['Edit', 'File &name:Edit', 'Edit0', 'Edit1']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Edit - ''    (L265, T877, R1524, B892)
+   |    | ['Edit', 'File &name:Edit', 'Edit0', 'Edit1']
+   |    | child_window(class_name="Edit")
+   |
+   | ComboBox - ''    (L261, T872, R1544, B896)
+   | ['File &name:ComboBox', 'ComboBox', 'ComboBox0', 'ComboBox1']
+   | child_window(class_name="ComboBox")
+   |    |
+   |    | Edit - ''    (L265, T877, R1524, B892)
+   |    | ['Edit', 'File &name:Edit', 'Edit0', 'Edit1']
+   |    | child_window(class_name="Edit")
+   |
+   | Edit - ''    (L265, T877, R1524, B892)
+   | ['Edit', 'File &name:Edit', 'Edit0', 'Edit1']
+   | child_window(class_name="Edit")
+   |
+   | Static - 'Files of &type:'    (L72, T138, R72, B138)
+   | ['Static3', 'Files of &type:Static', 'Files of &type:', 'Files of &type:Sta
+tic0', 'Files of &type:Static1']
+   | child_window(title="Files of &type:", class_name="Static")
+   |
+   | ComboBox - 'All Files (*.*)'    (L1556, T872, R1744, B895)
+   | ['OpenComboBox', 'Files of &type:ComboBox', 'ComboBox2', 'Files of &type:Co
+mboBox0', 'Files of &type:ComboBox1']
+   | child_window(title="All Files (*.*)", class_name="ComboBox")
+   |
+   | Button - '&Open'    (L1556, T901, R1644, B927)
+   | ['&Open', 'Button', '&OpenButton', 'Button0', 'Button1']
+   | child_window(title="&Open", class_name="Button")
+   |
+   | Button - 'Cancel'    (L1656, T901, R1744, B927)
+   | ['Button2', 'CancelButton', 'Cancel']
+   | child_window(title="Cancel", class_name="Button")
+   |
+   | ScrollBar - ''    (L1744, T922, R1761, B939)
+   | ['ScrollBar3', 'CancelScrollBar']
+   | child_window(class_name="ScrollBar")
+   |
+   | Static - ''    (L189, T147, R705, B164)
+   | ['Files of &type:Static2', 'Static4']
+   | child_window(class_name="Static")
+   |
+   | Static - ''    (L81, T151, R160, B181)
+   | ['Files of &type:Static3', 'Static5']
+   | child_window(class_name="Static")
+   |
+   | Static - ''    (L189, T170, R707, B193)
+   | ['Files of &type:Static4', 'Static6']
+   | child_window(class_name="Static")
+   |
+   | ListBox - ''    (L72, T180, R711, B560)
+   | ['ListBox', 'Files of &type:ListBox']
+   | child_window(class_name="ListBox")
+   |
+   | Static - ''    (L202, T138, R1744, B138)
+   | ['OpenStatic', 'Static7']
+   | child_window(class_name="Static")
+   |
+   | Button - '&Help'    (L532, T571, R620, B597)
+   | ['&Help', 'Button3', '&HelpButton']
+   | child_window(title="&Help", class_name="Button")
+   |
+   | WorkerW - ''    (L72, T138, R1761, B180)
+   | ['Files of &type:WorkerW', 'WorkerW']
+   | child_window(class_name="WorkerW")
+   |    |
+   |    | ReBar - ''    (L72, T138, R1761, B180)
+   |    | ['ReBar', 'Files of &type:ReBar', 'ReBarAddress']
+   |    | child_window(class_name="ReBarWindow32")
+   |    |    |
+   |    |    | TravelBand - ''    (L72, T141, R153, B173)
+   |    |    | ['TravelBand', 'Files of &type:TravelBand']
+   |    |    | child_window(class_name="TravelBand")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Navigation buttons'    (L76, T143, R153, B173)
+   |    |    |    | ['Navigation buttons', 'Navigation buttonsToolbar', 'Toolbar
+', 'Toolbar0', 'Toolbar1']
+   |    |    |    | child_window(title="Navigation buttons", class_name="Toolbar
+Window32")
+   |    |    |
+   |    |    | Toolbar - 'Navigation buttons'    (L76, T143, R153, B173)
+   |    |    | ['Navigation buttons', 'Navigation buttonsToolbar', 'Toolbar', 'T
+oolbar0', 'Toolbar1']
+   |    |    | child_window(title="Navigation buttons", class_name="ToolbarWindo
+w32")
+   |    |    |
+   |    |    | UpBand - ''    (L153, T143, R177, B172)
+   |    |    | ['Files of &type:UpBand', 'UpBand']
+   |    |    | child_window(class_name="UpBand")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Up band toolbar'    (L153, T147, R177, B176)
+   |    |    |    | ['Up band toolbarToolbar', 'Up band toolbar', 'Toolbar2']
+   |    |    |    | child_window(title="Up band toolbar", class_name="ToolbarWin
+dow32")
+   |    |    |
+   |    |    | Toolbar - 'Up band toolbar'    (L153, T147, R177, B176)
+   |    |    | ['Up band toolbarToolbar', 'Up band toolbar', 'Toolbar2']
+   |    |    | child_window(title="Up band toolbar", class_name="ToolbarWindow32
+")
+   |    |    |
+   |    |    | Address Band Root - ''    (L177, T138, R1536, B177)
+   |    |    | ['Address Band Root', 'Files of &type:Address Band Root']
+   |    |    | child_window(class_name="Address Band Root")
+   |    |    |    |
+   |    |    |    | Progress - ''    (L179, T143, R1534, B173)
+   |    |    |    | ['Files of &type:Progress', 'Progress']
+   |    |    |    | child_window(class_name="msctls_progress32")
+   |    |    |    |    |
+   |    |    |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent
+']
+   |    |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468
+, B173)
+   |    |    |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'T
+oolbar3']
+   |    |    |    |    |    | child_window(title="Address: Desktop", class_name=
+"ToolbarWindow32")
+   |    |    |    |    |
+   |    |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B17
+3)
+   |    |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolba
+r3']
+   |    |    |    |    | child_window(title="Address: Desktop", class_name="Tool
+barWindow32")
+   |    |    |    |    |
+   |    |    |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534
+, B173)
+   |    |    |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address ba
+nd toolbar']
+   |    |    |    |    | child_window(title="Address band toolbar", class_name="
+ToolbarWindow32")
+   |    |    |    |    |
+   |    |    |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    |    |
+   |    |    |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    |
+   |    |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    |
+   |    |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B17
+3)
+   |    |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolba
+r3']
+   |    |    |    |    | child_window(title="Address: Desktop", class_name="Tool
+barWindow32")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B17
+3)
+   |    |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band to
+olbar']
+   |    |    |    | child_window(title="Address band toolbar", class_name="Toolb
+arWindow32")
+   |    |    |    |
+   |    |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    |
+   |    |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Progress - ''    (L179, T143, R1534, B173)
+   |    |    | ['Files of &type:Progress', 'Progress']
+   |    |    | child_window(class_name="msctls_progress32")
+   |    |    |    |
+   |    |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    |
+   |    |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B17
+3)
+   |    |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolba
+r3']
+   |    |    |    |    | child_window(title="Address: Desktop", class_name="Tool
+barWindow32")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B17
+3)
+   |    |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band to
+olbar']
+   |    |    |    | child_window(title="Address band toolbar", class_name="Toolb
+arWindow32")
+   |    |    |    |
+   |    |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    |
+   |    |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |    |
+   |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar
+']
+   |    |    | child_window(title="Address band toolbar", class_name="ToolbarWin
+dow32")
+   |    |    |
+   |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | SeparatorBand - ''    (L1540, T157, R1546, B158)
+   |    |    | ['OpenSeparatorBand', 'SeparatorBand', 'OpenSeparatorBand0', 'Ope
+nSeparatorBand1', 'SeparatorBand0', 'SeparatorBand1']
+   |    |    | child_window(class_name="SeparatorBand")
+   |    |    |
+   |    |    | UniversalSearchBand - ''    (L1546, T139, R1750, B175)
+   |    |    | ['UniversalSearchBand', 'OpenUniversalSearchBand']
+   |    |    | child_window(class_name="UniversalSearchBand")
+   |    |    |    |
+   |    |    |    | ModernSearchBox - 'SearchEditBox'    (L1546, T142, R1750, B1
+74)
+   |    |    |    | ['SearchEditBoxModernSearchBox', 'ModernSearchBox', 'SearchE
+ditBox']
+   |    |    |    | child_window(title="SearchEditBox", class_name="ModernSearch
+Box")
+   |    |    |
+   |    |    | ModernSearchBox - 'SearchEditBox'    (L1546, T142, R1750, B174)
+   |    |    | ['SearchEditBoxModernSearchBox', 'ModernSearchBox', 'SearchEditBo
+x']
+   |    |    | child_window(title="SearchEditBox", class_name="ModernSearchBox")
+
+   |    |    |
+   |    |    | SeparatorBand - ''    (L1754, T157, R1761, B158)
+   |    |    | ['OpenSeparatorBand2', 'SeparatorBand2']
+   |    |    | child_window(class_name="SeparatorBand")
+   |    |
+   |    | TravelBand - ''    (L72, T141, R153, B173)
+   |    | ['TravelBand', 'Files of &type:TravelBand']
+   |    | child_window(class_name="TravelBand")
+   |    |    |
+   |    |    | Toolbar - 'Navigation buttons'    (L76, T143, R153, B173)
+   |    |    | ['Navigation buttons', 'Navigation buttonsToolbar', 'Toolbar', 'T
+oolbar0', 'Toolbar1']
+   |    |    | child_window(title="Navigation buttons", class_name="ToolbarWindo
+w32")
+   |    |
+   |    | Toolbar - 'Navigation buttons'    (L76, T143, R153, B173)
+   |    | ['Navigation buttons', 'Navigation buttonsToolbar', 'Toolbar', 'Toolba
+r0', 'Toolbar1']
+   |    | child_window(title="Navigation buttons", class_name="ToolbarWindow32")
+
+   |    |
+   |    | UpBand - ''    (L153, T143, R177, B172)
+   |    | ['Files of &type:UpBand', 'UpBand']
+   |    | child_window(class_name="UpBand")
+   |    |    |
+   |    |    | Toolbar - 'Up band toolbar'    (L153, T147, R177, B176)
+   |    |    | ['Up band toolbarToolbar', 'Up band toolbar', 'Toolbar2']
+   |    |    | child_window(title="Up band toolbar", class_name="ToolbarWindow32
+")
+   |    |
+   |    | Toolbar - 'Up band toolbar'    (L153, T147, R177, B176)
+   |    | ['Up band toolbarToolbar', 'Up band toolbar', 'Toolbar2']
+   |    | child_window(title="Up band toolbar", class_name="ToolbarWindow32")
+   |    |
+   |    | Address Band Root - ''    (L177, T138, R1536, B177)
+   |    | ['Address Band Root', 'Files of &type:Address Band Root']
+   |    | child_window(class_name="Address Band Root")
+   |    |    |
+   |    |    | Progress - ''    (L179, T143, R1534, B173)
+   |    |    | ['Files of &type:Progress', 'Progress']
+   |    |    | child_window(class_name="msctls_progress32")
+   |    |    |    |
+   |    |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    |
+   |    |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B17
+3)
+   |    |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolba
+r3']
+   |    |    |    |    | child_window(title="Address: Desktop", class_name="Tool
+barWindow32")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B17
+3)
+   |    |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band to
+olbar']
+   |    |    |    | child_window(title="Address band toolbar", class_name="Toolb
+arWindow32")
+   |    |    |    |
+   |    |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    |
+   |    |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |    |
+   |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar
+']
+   |    |    | child_window(title="Address band toolbar", class_name="ToolbarWin
+dow32")
+   |    |    |
+   |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Progress - ''    (L179, T143, R1534, B173)
+   |    | ['Files of &type:Progress', 'Progress']
+   |    | child_window(class_name="msctls_progress32")
+   |    |    |
+   |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |    |
+   |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar
+']
+   |    |    | child_window(title="Address band toolbar", class_name="ToolbarWin
+dow32")
+   |    |    |
+   |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |
+   |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    | child_window(title="Address: Desktop", class_name="ToolbarWindow32")
+   |    |
+   |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar']
+   |    | child_window(title="Address band toolbar", class_name="ToolbarWindow32
+")
+   |    |
+   |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    | child_window(class_name="ComboBoxEx32")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Edit - ''    (L203, T151, R1435, B166)
+   |    | ['Edit2', 'Files of &type:Edit']
+   |    | child_window(class_name="Edit")
+   |    |
+   |    | SeparatorBand - ''    (L1540, T157, R1546, B158)
+   |    | ['OpenSeparatorBand', 'SeparatorBand', 'OpenSeparatorBand0', 'OpenSepa
+ratorBand1', 'SeparatorBand0', 'SeparatorBand1']
+   |    | child_window(class_name="SeparatorBand")
+   |    |
+   |    | UniversalSearchBand - ''    (L1546, T139, R1750, B175)
+   |    | ['UniversalSearchBand', 'OpenUniversalSearchBand']
+   |    | child_window(class_name="UniversalSearchBand")
+   |    |    |
+   |    |    | ModernSearchBox - 'SearchEditBox'    (L1546, T142, R1750, B174)
+   |    |    | ['SearchEditBoxModernSearchBox', 'ModernSearchBox', 'SearchEditBo
+x']
+   |    |    | child_window(title="SearchEditBox", class_name="ModernSearchBox")
+
+   |    |
+   |    | ModernSearchBox - 'SearchEditBox'    (L1546, T142, R1750, B174)
+   |    | ['SearchEditBoxModernSearchBox', 'ModernSearchBox', 'SearchEditBox']
+   |    | child_window(title="SearchEditBox", class_name="ModernSearchBox")
+   |    |
+   |    | SeparatorBand - ''    (L1754, T157, R1761, B158)
+   |    | ['OpenSeparatorBand2', 'SeparatorBand2']
+   |    | child_window(class_name="SeparatorBand")
+   |
+   | ReBar - ''    (L72, T138, R1761, B180)
+   | ['ReBar', 'Files of &type:ReBar', 'ReBarAddress']
+   | child_window(class_name="ReBarWindow32")
+   |    |
+   |    | TravelBand - ''    (L72, T141, R153, B173)
+   |    | ['TravelBand', 'Files of &type:TravelBand']
+   |    | child_window(class_name="TravelBand")
+   |    |    |
+   |    |    | Toolbar - 'Navigation buttons'    (L76, T143, R153, B173)
+   |    |    | ['Navigation buttons', 'Navigation buttonsToolbar', 'Toolbar', 'T
+oolbar0', 'Toolbar1']
+   |    |    | child_window(title="Navigation buttons", class_name="ToolbarWindo
+w32")
+   |    |
+   |    | Toolbar - 'Navigation buttons'    (L76, T143, R153, B173)
+   |    | ['Navigation buttons', 'Navigation buttonsToolbar', 'Toolbar', 'Toolba
+r0', 'Toolbar1']
+   |    | child_window(title="Navigation buttons", class_name="ToolbarWindow32")
+
+   |    |
+   |    | UpBand - ''    (L153, T143, R177, B172)
+   |    | ['Files of &type:UpBand', 'UpBand']
+   |    | child_window(class_name="UpBand")
+   |    |    |
+   |    |    | Toolbar - 'Up band toolbar'    (L153, T147, R177, B176)
+   |    |    | ['Up band toolbarToolbar', 'Up band toolbar', 'Toolbar2']
+   |    |    | child_window(title="Up band toolbar", class_name="ToolbarWindow32
+")
+   |    |
+   |    | Toolbar - 'Up band toolbar'    (L153, T147, R177, B176)
+   |    | ['Up band toolbarToolbar', 'Up band toolbar', 'Toolbar2']
+   |    | child_window(title="Up band toolbar", class_name="ToolbarWindow32")
+   |    |
+   |    | Address Band Root - ''    (L177, T138, R1536, B177)
+   |    | ['Address Band Root', 'Files of &type:Address Band Root']
+   |    | child_window(class_name="Address Band Root")
+   |    |    |
+   |    |    | Progress - ''    (L179, T143, R1534, B173)
+   |    |    | ['Files of &type:Progress', 'Progress']
+   |    |    | child_window(class_name="msctls_progress32")
+   |    |    |    |
+   |    |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |    |
+   |    |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B17
+3)
+   |    |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolba
+r3']
+   |    |    |    |    | child_window(title="Address: Desktop", class_name="Tool
+barWindow32")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B17
+3)
+   |    |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band to
+olbar']
+   |    |    |    | child_window(title="Address band toolbar", class_name="Toolb
+arWindow32")
+   |    |    |    |
+   |    |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |    |
+   |    |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |    |
+   |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar
+']
+   |    |    | child_window(title="Address band toolbar", class_name="ToolbarWin
+dow32")
+   |    |    |
+   |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Progress - ''    (L179, T143, R1534, B173)
+   |    | ['Files of &type:Progress', 'Progress']
+   |    | child_window(class_name="msctls_progress32")
+   |    |    |
+   |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |    |
+   |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar
+']
+   |    |    | child_window(title="Address band toolbar", class_name="ToolbarWin
+dow32")
+   |    |    |
+   |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |
+   |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    | child_window(title="Address: Desktop", class_name="ToolbarWindow32")
+   |    |
+   |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar']
+   |    | child_window(title="Address band toolbar", class_name="ToolbarWindow32
+")
+   |    |
+   |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    | child_window(class_name="ComboBoxEx32")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Edit - ''    (L203, T151, R1435, B166)
+   |    | ['Edit2', 'Files of &type:Edit']
+   |    | child_window(class_name="Edit")
+   |    |
+   |    | SeparatorBand - ''    (L1540, T157, R1546, B158)
+   |    | ['OpenSeparatorBand', 'SeparatorBand', 'OpenSeparatorBand0', 'OpenSepa
+ratorBand1', 'SeparatorBand0', 'SeparatorBand1']
+   |    | child_window(class_name="SeparatorBand")
+   |    |
+   |    | UniversalSearchBand - ''    (L1546, T139, R1750, B175)
+   |    | ['UniversalSearchBand', 'OpenUniversalSearchBand']
+   |    | child_window(class_name="UniversalSearchBand")
+   |    |    |
+   |    |    | ModernSearchBox - 'SearchEditBox'    (L1546, T142, R1750, B174)
+   |    |    | ['SearchEditBoxModernSearchBox', 'ModernSearchBox', 'SearchEditBo
+x']
+   |    |    | child_window(title="SearchEditBox", class_name="ModernSearchBox")
+
+   |    |
+   |    | ModernSearchBox - 'SearchEditBox'    (L1546, T142, R1750, B174)
+   |    | ['SearchEditBoxModernSearchBox', 'ModernSearchBox', 'SearchEditBox']
+   |    | child_window(title="SearchEditBox", class_name="ModernSearchBox")
+   |    |
+   |    | SeparatorBand - ''    (L1754, T157, R1761, B158)
+   |    | ['OpenSeparatorBand2', 'SeparatorBand2']
+   |    | child_window(class_name="SeparatorBand")
+   |
+   | TravelBand - ''    (L72, T141, R153, B173)
+   | ['TravelBand', 'Files of &type:TravelBand']
+   | child_window(class_name="TravelBand")
+   |    |
+   |    | Toolbar - 'Navigation buttons'    (L76, T143, R153, B173)
+   |    | ['Navigation buttons', 'Navigation buttonsToolbar', 'Toolbar', 'Toolba
+r0', 'Toolbar1']
+   |    | child_window(title="Navigation buttons", class_name="ToolbarWindow32")
+
+   |
+   | Toolbar - 'Navigation buttons'    (L76, T143, R153, B173)
+   | ['Navigation buttons', 'Navigation buttonsToolbar', 'Toolbar', 'Toolbar0',
+'Toolbar1']
+   | child_window(title="Navigation buttons", class_name="ToolbarWindow32")
+   |
+   | UpBand - ''    (L153, T143, R177, B172)
+   | ['Files of &type:UpBand', 'UpBand']
+   | child_window(class_name="UpBand")
+   |    |
+   |    | Toolbar - 'Up band toolbar'    (L153, T147, R177, B176)
+   |    | ['Up band toolbarToolbar', 'Up band toolbar', 'Toolbar2']
+   |    | child_window(title="Up band toolbar", class_name="ToolbarWindow32")
+   |
+   | Toolbar - 'Up band toolbar'    (L153, T147, R177, B176)
+   | ['Up band toolbarToolbar', 'Up band toolbar', 'Toolbar2']
+   | child_window(title="Up band toolbar", class_name="ToolbarWindow32")
+   |
+   | Address Band Root - ''    (L177, T138, R1536, B177)
+   | ['Address Band Root', 'Files of &type:Address Band Root']
+   | child_window(class_name="Address Band Root")
+   |    |
+   |    | Progress - ''    (L179, T143, R1534, B173)
+   |    | ['Files of &type:Progress', 'Progress']
+   |    | child_window(class_name="msctls_progress32")
+   |    |    |
+   |    |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |    |
+   |    |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    |    | child_window(title="Address: Desktop", class_name="ToolbarWi
+ndow32")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |    |
+   |    |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar
+']
+   |    |    | child_window(title="Address band toolbar", class_name="ToolbarWin
+dow32")
+   |    |    |
+   |    |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    |    | child_window(class_name="ComboBoxEx32")
+   |    |    |    |
+   |    |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    |    | child_window(class_name="ComboBox")
+   |    |    |    |    |
+   |    |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    |    | child_window(class_name="Edit")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |
+   |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    | child_window(title="Address: Desktop", class_name="ToolbarWindow32")
+   |    |
+   |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar']
+   |    | child_window(title="Address band toolbar", class_name="ToolbarWindow32
+")
+   |    |
+   |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    | child_window(class_name="ComboBoxEx32")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Edit - ''    (L203, T151, R1435, B166)
+   |    | ['Edit2', 'Files of &type:Edit']
+   |    | child_window(class_name="Edit")
+   |
+   | Progress - ''    (L179, T143, R1534, B173)
+   | ['Files of &type:Progress', 'Progress']
+   | child_window(class_name="msctls_progress32")
+   |    |
+   |    | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   |    | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   |    | child_window(class_name="Breadcrumb Parent")
+   |    |    |
+   |    |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    |    | child_window(title="Address: Desktop", class_name="ToolbarWindow3
+2")
+   |    |
+   |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    | child_window(title="Address: Desktop", class_name="ToolbarWindow32")
+   |    |
+   |    | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   |    | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar']
+   |    | child_window(title="Address band toolbar", class_name="ToolbarWindow32
+")
+   |    |
+   |    | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   |    | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   |    | child_window(class_name="ComboBoxEx32")
+   |    |    |
+   |    |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    |
+   |    |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Edit - ''    (L203, T151, R1435, B166)
+   |    | ['Edit2', 'Files of &type:Edit']
+   |    | child_window(class_name="Edit")
+   |
+   | Breadcrumb Parent - ''    (L179, T143, R1468, B173)
+   | ['Files of &type:Breadcrumb Parent', 'Breadcrumb Parent']
+   | child_window(class_name="Breadcrumb Parent")
+   |    |
+   |    | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   |    | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   |    | child_window(title="Address: Desktop", class_name="ToolbarWindow32")
+   |
+   | Toolbar - 'Address: Desktop'    (L179, T143, R1468, B173)
+   | ['Address: Desktop', 'Address: DesktopToolbar', 'Toolbar3']
+   | child_window(title="Address: Desktop", class_name="ToolbarWindow32")
+   |
+   | Toolbar - 'Address band toolbar'    (L1468, T143, R1534, B173)
+   | ['Address band toolbarToolbar', 'Toolbar4', 'Address band toolbar']
+   | child_window(title="Address band toolbar", class_name="ToolbarWindow32")
+   |
+   | ComboBoxEx - ''    (L179, T143, R1468, B173)
+   | ['ComboBoxEx2', 'Files of &type:ComboBoxEx']
+   | child_window(class_name="ComboBoxEx32")
+   |    |
+   |    | ComboBox - ''    (L179, T143, R1468, B173)
+   |    | ['Files of &type:ComboBox2', 'ComboBox3']
+   |    | child_window(class_name="ComboBox")
+   |    |    |
+   |    |    | Edit - ''    (L203, T151, R1435, B166)
+   |    |    | ['Edit2', 'Files of &type:Edit']
+   |    |    | child_window(class_name="Edit")
+   |    |
+   |    | Edit - ''    (L203, T151, R1435, B166)
+   |    | ['Edit2', 'Files of &type:Edit']
+   |    | child_window(class_name="Edit")
+   |
+   | ComboBox - ''    (L179, T143, R1468, B173)
+   | ['Files of &type:ComboBox2', 'ComboBox3']
+   | child_window(class_name="ComboBox")
+   |    |
+   |    | Edit - ''    (L203, T151, R1435, B166)
+   |    | ['Edit2', 'Files of &type:Edit']
+   |    | child_window(class_name="Edit")
+   |
+   | Edit - ''    (L203, T151, R1435, B166)
+   | ['Edit2', 'Files of &type:Edit']
+   | child_window(class_name="Edit")
+   |
+   | SeparatorBand - ''    (L1540, T157, R1546, B158)
+   | ['OpenSeparatorBand', 'SeparatorBand', 'OpenSeparatorBand0', 'OpenSeparator
+Band1', 'SeparatorBand0', 'SeparatorBand1']
+   | child_window(class_name="SeparatorBand")
+   |
+   | UniversalSearchBand - ''    (L1546, T139, R1750, B175)
+   | ['UniversalSearchBand', 'OpenUniversalSearchBand']
+   | child_window(class_name="UniversalSearchBand")
+   |    |
+   |    | ModernSearchBox - 'SearchEditBox'    (L1546, T142, R1750, B174)
+   |    | ['SearchEditBoxModernSearchBox', 'ModernSearchBox', 'SearchEditBox']
+   |    | child_window(title="SearchEditBox", class_name="ModernSearchBox")
+   |
+   | ModernSearchBox - 'SearchEditBox'    (L1546, T142, R1750, B174)
+   | ['SearchEditBoxModernSearchBox', 'ModernSearchBox', 'SearchEditBox']
+   | child_window(title="SearchEditBox", class_name="ModernSearchBox")
+   |
+   | SeparatorBand - ''    (L1754, T157, R1761, B158)
+   | ['OpenSeparatorBand2', 'SeparatorBand2']
+   | child_window(class_name="SeparatorBand")
+
+wisitl@Note-Dell3138 MINGW64 ~/Documents/PY/Inspection Macro
+$
