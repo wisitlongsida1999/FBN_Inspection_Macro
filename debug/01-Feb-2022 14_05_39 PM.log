@@ -1,0 +1,8 @@
+01/Feb/2022 02:05:50 PM - __main__ - INFO - Wait for two-factor authentication render:1
+01/Feb/2022 02:05:51 PM - __main__ - INFO - Wait for count_duo_pass:1
+01/Feb/2022 02:05:53 PM - __main__ - INFO - Wait for count_duo_pass:2
+01/Feb/2022 02:05:54 PM - __main__ - INFO - Wait for count_duo_pass:3
+01/Feb/2022 02:05:55 PM - __main__ - INFO - Wait for count_duo_pass:4
+01/Feb/2022 02:05:56 PM - __main__ - INFO - Wait for count_duo_pass:5
+01/Feb/2022 02:05:59 PM - __main__ - INFO - Login to QIS is success!!!
+01/Feb/2022 02:06:07 PM - __main__ - DEBUG - Main Page:CDwindow-55B008696B27D6C28BECFA90C1C50C43

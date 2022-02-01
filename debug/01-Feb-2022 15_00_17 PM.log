@@ -1,0 +1,8 @@
+01/Feb/2022 03:00:28 PM - __main__ - INFO - Wait for two-factor authentication render:1
+01/Feb/2022 03:00:31 PM - __main__ - INFO - Wait for count_duo_pass:1
+01/Feb/2022 03:00:32 PM - __main__ - INFO - Wait for count_duo_pass:2
+01/Feb/2022 03:00:33 PM - __main__ - INFO - Wait for count_duo_pass:3
+01/Feb/2022 03:00:37 PM - __main__ - INFO - Login to QIS is success!!!
+01/Feb/2022 03:00:44 PM - __main__ - DEBUG - Main Page:CDwindow-91BDE2579B3FD1DC2848BF8ABE1C1B5D
+01/Feb/2022 03:00:56 PM - __main__ - DEBUG - <selenium.webdriver.remote.webelement.WebElement (session="efd81ec79efcf071dc4c439c44c05b58", element="6f2a4d48-3c9c-4d12-be2d-deebeec01034")>
+01/Feb/2022 03:00:56 PM - __main__ - INFO - FA Link >>> FA-0493190 
