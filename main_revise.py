@@ -12,7 +12,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import os
 import sys
 import pywinauto
-
+import pyautogui
 
 
 
@@ -72,6 +72,23 @@ class INSPECTION_MACRO:
 
         #debug
         self.can_not_update_state = {}
+
+
+
+        en = pyautogui.password(text='Please Enter Your \"EN\"', title='Step 1 : EN', mask='☠')
+
+        self.logger.info('EN : '+en)
+
+        if en == '509357':
+
+            self.pass_code = pyautogui.prompt(text='Please Enter \"Pass Code\"', title='Step 2 : Pass Code')
+
+        else:
+
+            pyautogui.alert(text='Incorrect EN !!!',title='Error!',button='Exit')
+
+            sys.exit()
+
 
         return None
 
@@ -905,8 +922,26 @@ class INSPECTION_MACRO:
 
 if __name__ == '__main__':
 
-    INSPECTION_MACRO().main()
+    run = INSPECTION_MACRO()
 
-    while(input("Please enter \"e\" to Exit !")).lower()[0] != 'e':
+    run.main()
 
-        pass
+    if len(run.can_not_update_state) > 0:
+
+        result = run.log
+    
+    else:
+
+        result = 'Complete All FA Cases !!!'
+
+    while True:
+
+        en = pyautogui.password(text=result, title='Result', mask='☠') 
+
+        if en == '509357':
+
+            break
+
+        run.logger.critical('Incorrect EN >>> '+en)
+    
+    run.logger.info('End of program >>> '+en)
