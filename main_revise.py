@@ -195,6 +195,10 @@ class INSPECTION_MACRO:
 
                     clickable = True
 
+                    WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//input[@name="passcode"]'))).send_keys(self.pass_code)
+
+                    WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//button[@id="passcode"]'))).click()
+
                 except:
 
                     self.logger.warning("Can't Clickable'")
