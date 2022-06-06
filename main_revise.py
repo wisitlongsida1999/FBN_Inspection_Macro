@@ -191,7 +191,7 @@ class INSPECTION_MACRO:
 
                 try:
 
-                    WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//button[@type="submit"]'))).click()
+                    WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//button[@id="passcode"]'))).click()
 
                     clickable = True
 
@@ -276,7 +276,7 @@ class INSPECTION_MACRO:
 
                 handles = self.driver.window_handles
 
-                self.logger.debug("No. Of window handles1: "+str(len(handles))+", "+handles)
+                self.logger.debug("No. Of window handles1: "+str(len(handles))+", "+str(handles))
 
                 for handle in handles:
 
@@ -299,14 +299,80 @@ class INSPECTION_MACRO:
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//a[@id="top_simpleSearch"]'))).click()
 
 
+        #window handle
+        found_change_status_window = False
+        count_open_change_status_window = 0
+        while(not found_change_status_window):
+
+            reset_handle = False
+            sleep(1)#9-Dec-2021  add delay
+            handles = self.driver.window_handles
+            size = len(handles)
+            self.logger.debug("No. Of window handles2: "+str(size)+' >>>  '+str(handles))
+
+            for handle in handles:
+                
+                self.driver.switch_to.window(handle)
+                window_title = self.driver.title
+                if window_title == 'Change Status':
+                    self.logger.debug("Change Status Window: "+window_title+' >>> '+str(handles))
+                    found_change_status_window = True
+                    break
+                elif window_title == 'Application Error':
+                    self.logger.error("Application Error Window: "+window_title+' >>> '+str(handles))
+
+                    sleep(1)#9-Dec-2021  add delay
+                    reset_handle = True
+                    sleep(1)#9-Dec-2021  add delay
+                    self.driver.close()
+
+            if reset_handle:
+                
+                self.driver.switch_to.window(self.main_page)
+                
+                WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//span[@id="MSG_NextStatusspan"]'))).click()  #9-Dec-2021  visible to clickable
+                
+                WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="ewfinish"]'))).click()    #9-Dec-2021
+                
+            count_open_change_status_window+=3
+            
+            if count_open_change_status_window > 10:
+            
+                self.logger.critical("Can't open change_status Window: "+str(count_open_change_status_window)+" second")
+                self.can_not_update_state[fa_case] = "Can't Open Change Status Window"
+                break
+
+
+        if count_open_change_status_window < 10:
+
+            WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//a[@id="save"]'))).click()                
+
+            count_close_change_status_window = 0
+            while (len(self.driver.window_handles) > 1):
+                sleep(1)
+                count_close_change_status_window+=1
+                self.logger.warning("Wait for Close Change Status Window: "+ str(count_close_change_status_window)+" second")
+                if count_close_change_status_window > 10:
+                    self.logger.critical("Can't Close Change Status Window: "+str(count_close_change_status_window))
+                    self.can_not_update_state[fa_case] = "Can't Close Change Status Window"
+                    sleep(1)  #9-Dec-2021  add delay
+                    self.driver.close()
+                    sleep(1)  #9-Dec-2021  add delay
+                    break       
+        sleep(1)
+        
+        self.driver.switch_to.window(self.main_page)      
+        
+        
+
     def auto_update(self,fa_case):
 
         WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//input[@name="QUICKSEARCH_STRING"]'))).send_keys(Keys.CONTROL+'a',Keys.BACKSPACE) #clear 
-
+        sleep(1)
         WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//input[@name="QUICKSEARCH_STRING"]'))).send_keys(fa_case)
-
+        sleep(1)       
         WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//a[@id="top_simpleSearch"]'))).click()
-        
+        sleep(1) 
         if str(self.all_fa_case_result_sheet[fa_case]["Fault Duplication Test Plan"]).lower() != "nan":
             
             test_status = 'testable'
@@ -344,7 +410,8 @@ class INSPECTION_MACRO:
 
                     if fa_case == fa_link.text.strip():
 
-                        fa_link.click()          
+                        fa_link.click()
+                        sleep(1) 
 
                     else:
 
@@ -355,7 +422,7 @@ class INSPECTION_MACRO:
                     self.logger.critical(fa_case+ " : Page is not rendering !!!")
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//a[@id="top_simpleSearch"]'))).click()
-
+                    sleep(1) 
         
         fa_case_status = WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//h2[@style="color:Blue;"]'))).text
 
@@ -402,97 +469,97 @@ class INSPECTION_MACRO:
             if status == 'testable':
                 
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="MSG_Editspan"]'))).click()
-
+                sleep(1) 
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="show_floater_R1_4859_0_displayspan"]'))).click()
-
+                sleep(1) 
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//input[@id="floater_search_text_R1_4859_0_display"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Case Owner'])
-
+                sleep(1) 
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//span[@id="searchspan"]'))).click()
-
+                sleep(1)
                 elm_select = WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//td[@class=" yui-dt-string yui-dt-first"]')))
 
                 ActionChains(self.driver).double_click(on_element = elm_select).perform()
-
+                sleep(1)
                 #Part Inspection Summary
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Part Inspection Summary'])
-
+                sleep(1)
                 # Case Review Summary
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2018_7"]'))).send_keys("-")
-
+                sleep(1)
                 # Part History Investigation Summary
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2019_7"]'))).send_keys("-")
-
+                sleep(1)
                 # Is Potential Counterfeit   0 = Null, 1 = No, 2 = Yes            
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2020_7"]//option')))[1].click()
-
+                sleep(1)
                 # Passed Visual Inspection
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2021_7"]//option')))[2].click()
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="close_floater_R1_4859_0_display"]'))).click() 
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="MSG_Save"]'))).click()   
-
+                sleep(3)
                 self.window_handles(fa_case)
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="MSG_Editspan"]'))).click()
-
+                sleep(1)
                 #Fault Duplication Test Plan
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_1332_7"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Fault Duplication Test Plan'])
-                
+                sleep(1)
 
             elif status == 'untestable':
 
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="MSG_Editspan"]'))).click()
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="show_floater_R1_4859_0_displayspan"]'))).click()
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//input[@id="floater_search_text_R1_4859_0_display"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Case Owner'])
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//span[@id="searchspan"]'))).click()
-
+                sleep(1)
                 elm_select = WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//td[@class=" yui-dt-string yui-dt-first"]')))
 
                 ActionChains(self.driver).double_click(on_element = elm_select).perform()
-
+                sleep(1)
                 #Part Inspection Summary
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Part Inspection Summary'])
-
+                sleep(1)
                 # Case Review Summary
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2018_7"]'))).send_keys("-")
-
+                sleep(1)
                 # Part History Investigation Summary
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2019_7"]'))).send_keys("-")
-
+                sleep(1)
                 # Is Potential Counterfeit   0 = Null, 1 = No, 2 = Yes       
                 if self.all_fa_case_result_sheet[fa_case]['Is Potential Counterfeit'].lower() == "yes":
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2020_7"]//option')))[2].click()
-
+                    sleep(1)
                 elif self.all_fa_case_result_sheet[fa_case]['Is Potential Counterfeit'].lower() == "no":
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2020_7"]//option')))[1].click()
-
+                    sleep(1)
                 else:
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2020_7"]//option')))[0].click()
-
+                    sleep(1)
                 # Passed Visual Inspection
                 if "pass" in self.all_fa_case_result_sheet[fa_case]['Visual Inspection Code'].lower():
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2021_7"]//option')))[2].click()
-
+                    sleep(1)
                 elif "fail" in self.all_fa_case_result_sheet[fa_case]['Visual Inspection Code'].lower():
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2021_7"]//option')))[1].click()
-
+                    sleep(1)
                 else:
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2021_7"]//option')))[0].click()
-
+                    sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="close_floater_R1_4859_0_display"]'))).click() 
-
+                sleep(1)
             WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="MSG_Save"]'))).click()      
-
+            sleep(3)
 
         except:
 
@@ -535,108 +602,108 @@ class INSPECTION_MACRO:
             if status == 'testable':
 
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="MSG_Editspan"]'))).click()
-
+                sleep(1)    
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="show_floater_R1_4859_0_displayspan"]'))).click()
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//input[@id="floater_search_text_R1_4859_0_display"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Case Owner'])
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//span[@id="searchspan"]'))).click()
-
+                sleep(1)
                 elm_select = WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//td[@class=" yui-dt-string yui-dt-first"]')))
 
                 ActionChains(self.driver).double_click(on_element = elm_select).perform()
-
+                sleep(1)
                 #Part Inspection Summary
                 old_summary = WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).text
 
                 if old_summary.__len__() > 0:
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).send_keys("\n\n"+self.all_fa_case_result_sheet[fa_case]['Part Inspection Summary'])
-
+                    sleep(1)
                 else:
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Part Inspection Summary'])
-
+                    sleep(1)
                     # Case Review Summary
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2018_7"]'))).send_keys("-")
-
+                    sleep(1)
                     # Part History Investigation Summary
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2019_7"]'))).send_keys("-")
-
+                    sleep(1)
                 # Is Potential Counterfeit   0 = Null, 1 = No, 2 = Yes            
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2020_7"]//option')))[1].click()
-
+                sleep(1)
                 # Passed Visual Inspection
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2021_7"]//option')))[2].click()
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="close_floater_R1_4859_0_display"]'))).click() 
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="MSG_Save"]'))).click() 
-
+                sleep(3)
                 self.window_handles(fa_case)
 
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="MSG_Editspan"]'))).click()
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_1332_7"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Fault Duplication Test Plan']) 
-
+                sleep(1)
 
             elif status == 'untestable':
 
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="MSG_Editspan"]'))).click()
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="show_floater_R1_4859_0_displayspan"]'))).click()
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//input[@id="floater_search_text_R1_4859_0_display"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Case Owner'])
-
+                sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//span[@id="searchspan"]'))).click()
-
+                sleep(1)
                 elm_select = WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//td[@class=" yui-dt-string yui-dt-first"]')))
 
                 ActionChains(self.driver).double_click(on_element = elm_select).perform()
-
+                sleep(1)
                 old_summary = WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).text
                 
                 if old_summary.__len__() > 0:
 
                     #Part Inspection Summary
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).send_keys("\n\n"+self.all_fa_case_result_sheet[fa_case]['Part Inspection Summary'])
-
+                    sleep(1)
                 else :
 
                     #Part Inspection Summary
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).send_keys(self.all_fa_case_result_sheet[fa_case]['Part Inspection Summary'])
-
+                    sleep(1)
                 # Is Potential Counterfeit   0 = Null, 1 = No, 2 = Yes       
                 if self.all_fa_case_result_sheet[fa_case]['Is Potential Counterfeit'].lower() == "yes":
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2020_7"]//option')))[2].click()
-
+                    sleep(1)
                 elif self.all_fa_case_result_sheet[fa_case]['Is Potential Counterfeit'].lower() == "no":
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2020_7"]//option')))[1].click()
-
+                    sleep(1)
                 else:
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2020_7"]//option')))[0].click()
-
+                    sleep(1)
                 # Passed Visual Inspection
                 if "pass" in self.all_fa_case_result_sheet[fa_case]['Visual Inspection Code'].lower():
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2021_7"]//option')))[2].click()
-
+                    sleep(1)
                 elif "fail" in self.all_fa_case_result_sheet[fa_case]['Visual Inspection Code'].lower():
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2021_7"]//option')))[1].click()
-
+                    sleep(1)
                 else:
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2021_7"]//option')))[0].click()
-
+                    sleep(1)
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="close_floater_R1_4859_0_display"]'))).click() 
-
+                sleep(1)
 
             WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="MSG_Save"]'))).click() 
-
+            sleep(3)
 
 
         except:
@@ -680,7 +747,7 @@ class INSPECTION_MACRO:
         try:
 
             WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="MSG_Editspan"]'))).click()
-
+            sleep(1)
             if status == 'testable':
 
                 #Part Inspection Summary
@@ -689,21 +756,21 @@ class INSPECTION_MACRO:
                 if old_summary.__len__() > 0:
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).send_keys("\n\n"+self.all_fa_case_result_sheet[fa_case]['Part Inspection Summary'])
-
+                    sleep(1)
                     # Is Potential Counterfeit   0 = Null, 1 = No, 2 = Yes            
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2020_7"]//option')))[1].click()
-
+                    sleep(1)
                     # Passed Visual Inspection
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//select[@name="R1_2021_7"]//option')))[2].click()
-                
+                    sleep(1)
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_1332_7"]'))).send_keys("\n\n"+self.all_fa_case_result_sheet[fa_case]['Fault Duplication Test Plan'])
-
+                    sleep(1)
                     WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="MSG_Save"]'))).click()
-
+                    sleep(3)
                 else:
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="MSG_Cancelspan"]'))).click()   
-
+                    sleep(1)
                     self.logger.critical("Fault Duplication State is \"BLANK\'")
 
                     self.can_not_update_state[fa_case] = "Fault Duplication State is \"BLANK\'"
@@ -717,13 +784,13 @@ class INSPECTION_MACRO:
 
                     #Part Inspection Summary
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//textarea[@name="R1_2017_7"]'))).send_keys("\n\n"+self.all_fa_case_result_sheet[fa_case]['Part Inspection Summary'])
-
+                    sleep(1)
                     WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="MSG_Save"]'))).click()                     
-
+                    sleep(3)
                 else :
 
                     WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="MSG_Cancelspan"]'))).click()  
-
+                    sleep(1)
                     self.can_not_update_state[fa_case] = "Fault Duplication State is \"BLANK\'"   
 
                     self.logger.critical("Fault Duplication State is \"BLANK\'")
@@ -766,12 +833,55 @@ class INSPECTION_MACRO:
 
         try:
 
-            WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//span[@id="top_refreshspan"]'))).click()
+            WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//a[@id="top_simpleSearch"]'))).click()
+            sleep(1) 
+            
+            #check web render
+            while True :
 
+                try:
+
+                    if WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//div[@class="column_one layout"]//h2'))).text == fa_case:
+
+                        break
+
+                except:
+
+                    if fa_case in WebDriverWait(self.driver, 3).until(ec.visibility_of_element_located((By.XPATH, '//h4[@id="searchResultHeader"]'))).text:
+
+                        rows = WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//tr[@class="GMDataRow"]')))
+
+                        row = rows[-1]
+
+                        self.logger.debug(row)
+
+                        entries = row.find_elements(By.TAG_NAME,'td')
+
+                        fa_link = entries[3]
+
+                        self.logger.info("FA Link >>> "+fa_link.text)
+
+                        if fa_case == fa_link.text.strip():
+
+                            fa_link.click()
+                            sleep(1) 
+
+                        else:
+
+                            raise Exception("FA Link is Missmatch")                    
+
+                    else:
+
+                        self.logger.critical(fa_case+ " : Page is not rendering !!!")
+
+                        WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//a[@id="top_simpleSearch"]'))).click()
+                        sleep(1) 
+            
+            sleep(1)
             WebDriverWait(self.driver, 10).until(ec.visibility_of_all_elements_located((By.XPATH, '//div[@id="tabsDiv"]//li')))[-2].click()
-
+            sleep(1)
             WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//a[@id="MSG_AddAttachment_10"]'))).click()
-
+            sleep(1)
             add_files_list = []
 
             count_add_file = 0
@@ -801,7 +911,7 @@ class INSPECTION_MACRO:
             for addFile in add_files_list:
 
                 WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//span[@class="fileinput-span lf-btn-span"]'))).click()
-
+                sleep(1)
                 not_found_browse_window = True
 
                 while(not_found_browse_window):
@@ -819,12 +929,16 @@ class INSPECTION_MACRO:
                         sleep(1)
                         
                 dlg = app.window(title="Open")
+                
+                sleep(1)
 
                 dlg.Edit.type_keys(addFile+"{ENTER}")
+                
+                sleep(1)
 
 
             WebDriverWait(self.driver, 5).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="uploadFilesUM"]'))).click()
-
+            sleep(1)
             downloading =True
 
             while(downloading):
@@ -832,7 +946,7 @@ class INSPECTION_MACRO:
                 try:
 
                     close_upload_box = WebDriverWait(self.driver, 5).until(ec.visibility_of_element_located((By.XPATH, '//a[@id="lfuploadpalette_window_close"]'))).click()
-
+                    sleep(1)
                     self.logger.debug(close_upload_box)
 
                     downloading = False
@@ -842,7 +956,7 @@ class INSPECTION_MACRO:
                     self.logger.critical("Can not click \"upload\"")
 
                     WebDriverWait(self.driver, 5).until(ec.element_to_be_clickable((By.XPATH, '//a[@id="uploadFilesUM"]'))).click()
-
+                    sleep(1)
 
 
         except:        
@@ -907,17 +1021,17 @@ class INSPECTION_MACRO:
 
         self.logger.critical(self.can_not_update_state)
 
-        log = datetime.datetime.now()
+        self.log = datetime.datetime.now()
 
-        log = str(log)+ '\n'
+        self.log = str(self.log)+ '\n'
 
         for i,j in self.can_not_update_state.items():
 
-            log+=i+' : '+ j + '\n'
+            self.log+=i+' : '+ j + '\n'
 
         with open('log.txt', 'a') as file:
 
-            file.write(log)
+            file.write(self.log)
 
 
 
@@ -939,13 +1053,21 @@ if __name__ == '__main__':
         result = 'Complete All FA Cases !!!'
 
     while True:
+    
+        try:
 
-        en = pyautogui.password(text=result, title='Result', mask='☠') 
+            en = pyautogui.password(text=result, title='Result', mask='☠') 
 
-        if en == '509357':
+            if en == '509357':
 
-            break
+                break
 
-        run.logger.critical('Incorrect EN >>> '+en)
+            run.logger.critical('Incorrect EN >>> '+en)
+            
+        except:
+        
+            run.logger.critical('Incorrect EN >>> Error Result Box !')
     
     run.logger.info('End of program >>> '+en)
+
+    run.driver.quit()
